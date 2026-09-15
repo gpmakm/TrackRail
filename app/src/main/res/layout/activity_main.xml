@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#9C27B0"
+            android:id="@+id/tlbr"/>
+    </com.google.android.material.appbar.AppBarLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_margin="25dp"
+       android:orientation="vertical">
+       <androidx.appcompat.widget.SearchView
+           android:layout_width="match_parent"
+           android:layout_height="55dp"
+           android:hint="@string/ins1"
+           android:id="@+id/search"/>
+       <GridLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:padding="5dp"
+           android:rowCount="6"
+           android:columnCount="2">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="15dp"
+               android:text="@string/trainnum"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="521485"
+               android:layout_margin="15dp"
+               android:id="@+id/trainnum"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="15dp"
+               android:text="@string/trainname"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Siyaldah"
+               android:layout_margin="15dp"
+               android:id="@+id/trainname"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="15dp"
+               android:text="@string/past"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Rafiganj"
+               android:layout_margin="15dp"
+               android:id="@+id/platform"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="15dp"
+               android:text="@string/status"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="departed"
+               android:layout_margin="15dp"
+               android:id="@+id/status"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="15dp"
+               android:text="@string/next"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Deo road halt"
+               android:layout_margin="15dp"
+               android:id="@+id/nextst"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="15dp"
+               android:text="@string/delay"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="15 minute"
+               android:layout_margin="15dp"
+               android:id="@+id/delay"/>
+       </GridLayout>
+       <com.google.android.material.floatingactionbutton.FloatingActionButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:id="@+id/btn"
+           android:layout_gravity="bottom|end"
+           android:src="@drawable/refresj"/>
+   </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

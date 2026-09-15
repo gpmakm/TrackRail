@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TrackRail</string>
+    <string name="ins1">Enter train number</string>
+    <string name="trainnum">Train number</string>
+    <string name="trainname">Train name</string>
+    <string name="past">At station</string>
+    <string name="status">Status</string>
+    <string name="delay">Delayed by</string>
+    <string name="next">Next station</string>
+</resources>
